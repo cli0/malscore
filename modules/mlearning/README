@@ -1,0 +1,4 @@
+The values of the algorithms in this thread (more specifically: cluster numbers and iterations) are not the same as in
+the paper. The local machine limitations are a restriction for the algorithms. For example, with this dataset I
+cannot go higher than 32 clusters with BKM, lest I get a weird error, which can be bypassed with more memory.
+To test the algorithms here see https://zepplin.sec.in.tum.de/#/notebook/2C33UQ5N6

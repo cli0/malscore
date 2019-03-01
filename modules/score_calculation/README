@@ -1,0 +1,5 @@
+I trained the model in the application using only the relationships that contained the "vt_sim" tag. This allows
+the model weights to not be uniformly 0 but still very small: https://zepplin.sec.in.tum.de/#/notebook/2C33UQ5N6
+
+Furthermore, I attempted to recreate the JSON output that the system should create here in Zeppelin,
+if you scroll at the bottom of this notebook. You can see how the output looks like in JSON.

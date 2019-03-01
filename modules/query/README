@@ -1,0 +1,11 @@
+# How to run a query
+
+curl --include --request GET --header "Content-type: application/json" --data '{"id" : "sha256"}'
+http://localhost:9000/query
+
+------------
+Enter a true hash instead of sha256.
+Usually this lasts some 10-15 minutes. Again if run locally with no spark cluster access.
+
+
+

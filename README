@@ -1,0 +1,11 @@
+To automatically activate query+mlearning+score_calculation, do:
+
+curl --include --request GET --header "Content-type: application/json" --data '{"id":"sha256"}' http://localhost:9000/run
+
+This application is not connected to the Spark cluster so it does the calculations locally. On a machine
+with 4 cores and 16GB of RAM it takes over 48h to go through all the steps.
+
+Please read the rest of the README available (one for each component).
+
+
+

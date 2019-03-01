@@ -1,0 +1,7 @@
+# Format for data entry through curl
+
+curl --include --request POST --header "Content-type: application/json" --data '[{"uuid": "3eaaa2e6-8bb7-558a-93ee-4704af046640",
+"comment": "my user-defined IOR", "weight_manual": 0.5, "pluginid": "manual", "primaryobject": "15928945C7C3FBCFD2EF7D579B7E64CE00BC1493DDD1E1AC1556F94B466D73D1","tag": "manual",
+"secondaryobject": "4AF2E9722E7959CE1E70B2FB174EC64299D4098347A644094D522A4349340EF8", "timestamp": "2016-11-05", "username": "user"}]' http://localhost:9000/manual/insert
+
+these are just random values to check validity of entry format

@@ -1,0 +1,16 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+
+
+# Service
+GET  /run                               controllers.Malscore.service
+
+#Application
+
+->  /manual  manual.Routes
+
+->  /query   query.Routes
+->  /ml      mlearning.Routes
+->  /scoring     score_calculation.Routes
