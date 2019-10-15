@@ -1,3 +1,5 @@
+#Partial Source Code for Bachelor Thesis
+
 To automatically activate query+mlearning+score_calculation, do:
 
 curl --include --request GET --header "Content-type: application/json" --data '{"id":"sha256"}' http://localhost:9000/run
